@@ -1,0 +1,16 @@
+<div class="app-root">
+  <div class="header">
+    current lauguage: 
+    <select #currentLanguage (change)="onLanguageChange(currentLanguage.value)">
+      <option *ngFor="let language of languages" [value]="language" [selected]="language === languageQ">{{language}}</option>
+    </select>
+  </div>
+
+  <div class="question">{{sentences[current]['text' + languageQ]}}</div>
+  <div class="answer" [ngClass]="{'hidden': !isAnswerVisible}">{{sentences[current]['text' + languageA]}}</div>
+
+  <div class="button-container">
+    <div (click)="showAnswer()" *ngIf="!isAnswerVisible">show answer</div>
+    <div (click)="nextRandom()" *ngIf="isAnswerVisible">next random</div>
+  </div>
+</div>
