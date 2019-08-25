@@ -3,6 +3,7 @@
     justify-content: space-between;
     flex-direction: column;
     height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
     display: flex;
     max-width: 600px;
     margin-left: auto;

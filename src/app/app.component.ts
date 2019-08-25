@@ -8,7 +8,17 @@ import { SentencesService } from './sentences.service';
 })
 
 export class AppComponent {
-  constructor(private sentencesService: SentencesService) {}
+  constructor(private sentencesService: SentencesService) {
+    window.onload = () => {
+      let vh = window.innerHeight * 0.01;
+      let root = document.getElementById('app-root');
+      root.style.setProperty('--vh', `${vh}px`);
+      window.addEventListener('resize', () => {
+        let vh = window.innerHeight * 0.01;
+        root.style.setProperty('--vh', `${vh}px`);
+      });
+    };
+  }
 
   title = 'sentences';
   sentences = this.sentencesService.get();
