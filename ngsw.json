@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1566751875429,
+  "timestamp": 1566753075335,
   "index": "https://morsko1.github.io/sentences/index.html",
   "assetGroups": [
     {
@@ -54,7 +54,7 @@
     "https://morsko1.github.io/sentences/index.html": "7014bf51841d33565594e6d5ae0e801c072ff509",
     "https://morsko1.github.io/sentences/main-es2015.57cb082a25dd43037349.js": "cb92c6b98cf1db5d0611bced9ac162ae520c4b27",
     "https://morsko1.github.io/sentences/main-es5.57cb082a25dd43037349.js": "069b558838917dccd59a8b1b20eac3d7d80e84ab",
-    "https://morsko1.github.io/sentences/manifest.webmanifest": "e8defdacb62c20f26e5b6d4e7905b3e602cf0d16",
+    "https://morsko1.github.io/sentences/manifest.webmanifest": "225e2dbecd27fbea44aa829fefef0dde38727205",
     "https://morsko1.github.io/sentences/polyfills-es2015.fd917e7c3ed57f282ee5.js": "e2f28c3743afd2899e140ad831df9675c233c02b",
     "https://morsko1.github.io/sentences/polyfills-es5.f9fad3ad3c84e6dbdd72.js": "9ab1ff82f0d4de8ea99a7c18fa536116b571683e",
     "https://morsko1.github.io/sentences/runtime-es2015.24b02acc1f369d9b9f37.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
