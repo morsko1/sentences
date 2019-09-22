@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1566753075335,
+  "timestamp": 1569186392869,
   "index": "https://morsko1.github.io/sentences/index.html",
   "assetGroups": [
     {
@@ -23,7 +23,7 @@
     },
     {
       "name": "assets",
-      "installMode": "lazy",
+      "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
         "https://morsko1.github.io/sentences/assets/data.ts",
